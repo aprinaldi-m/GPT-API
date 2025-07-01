@@ -19,7 +19,7 @@
   <script>
     async function kirim() {
       const prompt = document.getElementById("prompt").value;
-      const res = await fetch("https://f3abeecf-c3e1-4db6-bc5f-2cd78e262773-00-1e3ryvi6a70d.pike.replit.dev/", {
+      const res = await fetch("https://f3abeecf-c3e1-4db6-bc5f-2cd78e262773-00-1e3ryvi6a70d.pike.replit.dev/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt })
